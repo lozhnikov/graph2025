@@ -1,7 +1,8 @@
 PROJECT_NAME          = graph
 PROJECT_NUMBER        = 0.1
 OUTPUT_DIRECTORY      = build/docs
-OUTPUT_LANGUAGE       = Russian
+OUTPUT_LANGUAGE       = English
+ALLOW_UNICODE_NAMES   = YES
 HIDE_UNDOC_MEMBERS    = YES
 HIDE_UNDOC_CLASSES    = YES
 EXTRACT_PRIVATE       = YES
@@ -18,7 +19,7 @@ MACRO_EXPANSION       = YES
 INCLUDE_PATH          = include
 
 #USE_LATEX             = YES
-EXTRA_PACKAGES        = {amsmath}, {amsfonts}
+EXTRA_PACKAGES        = [utf8]{inputenc}, [T2A]{fontenc}, {amsmath}, {amsfonts}
 
 USE_MATHJAX           = YES
 MATHJAX_EXTENSIONS    = TeX/AMSmath TeX/AMSsymbols

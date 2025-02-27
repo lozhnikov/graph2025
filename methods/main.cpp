@@ -7,6 +7,7 @@
 
 #include <httplib.h>
 #include <iostream>
+#include <cstdio>
 #include <nlohmann/json.hpp>
 #include "methods.hpp"
 

@@ -6,6 +6,8 @@
  */
 
 #include <httplib.h>
+#include <string>
+#include <cstdio>
 #include "test.hpp"
 #include "test_core.hpp"
 
