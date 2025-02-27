@@ -14,7 +14,7 @@
 
 
 /*!
-@fn graph::BreadthFirstTraversal(GraphType& graph, Predicate predicate)
+@fn graph::BreadthFirstTraversal(const GraphType& graph, Predicate predicate)
 
 Функция реализует алгоритм топологической сортировки, описанный в разделе
 @ref breadth_first_traversal.
