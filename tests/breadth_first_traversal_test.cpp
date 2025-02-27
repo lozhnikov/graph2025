@@ -194,7 +194,6 @@ static void RandomTestHelper(httplib::Client* cli,
   std::uniform_int_distribution<size_t> edgesSize(10, 300);
 
   for (int it = 0; it < numTries; it++) {
-    size_t numVertices = verticesSize(gen);
     size_t numEdges = edgesSize(gen);
 
     std::vector<size_t> vertices;
