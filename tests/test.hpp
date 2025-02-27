@@ -32,6 +32,12 @@ void TestWeightedOrientedGraph();
 
 /* Сюда нужно добавить объявления тестовых функций. */
 
+/**
+ * @brief Набор тестов для алгоритма обхода графа в ширину.
+ *
+ * @param cli Указатель на HTTP клиент.
+ */
+void TestBreadthFirstTraversal(httplib::Client* cli);
 
 
 /* Конец вставки. */
